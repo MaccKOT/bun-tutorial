@@ -7,3 +7,5 @@ Work in Debian Linux WSL, because [Bun](https://bun.sh/docs/installation) don't 
 ```bun run index.ts``` or simple ```bun start```
 
 Test running ```bun test```
+
+Internal bandler ```bun run build```

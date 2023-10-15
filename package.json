@@ -6,7 +6,8 @@
     "start": "bun run index.ts",
     "dev": "bun --watch index.ts",
     "test": "bun test",
-    "build": "bun build ./src/index.ts --outfile=./dist/bundle.js"
+    "build": "bun build ./src/index.tsx --outfile=./dist/bundle.js",
+    "watch": "bun build ./src/index.tsx --outfile=./dist/bundle.js --watch"
   },
   "devDependencies": {
     "bun-types": "latest"
@@ -15,6 +16,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "axios": "^1.5.1"
+    "axios": "^1.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

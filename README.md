@@ -8,4 +8,4 @@ Work in Debian Linux WSL, because [Bun](https://bun.sh/docs/installation) don't 
 
 Test running ```bun test```
 
-Internal bandler ```bun run build```, than watch files in `.dist/` folder. 
+Internal bandler ```bun run build```, than watch files in `.dist/` folder. You need create `index.html` with `div#root` and plugin .js bandled file manual. 
